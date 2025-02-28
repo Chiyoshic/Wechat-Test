@@ -1,0 +1,67 @@
+<view class="flex-col page">
+  <view class="flex-col flex-auto group">
+    <view class="flex-col justify-start items-center">
+      <!-- <image
+        class="image_4"
+        src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=640f871463e784f30feea9d53ed4680a.png"
+      /> -->
+    </view>
+    <view class="flex-row equal-division">
+      <view class="flex-col items-center equal-division-item space-y-6">
+        <!-- <image
+          class="image_5"
+          src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=16551312356205125204.png"
+        /> -->
+        <text class="font_1">地图找楼</text>
+      </view>
+      <view class="flex-col items-center equal-division-item space-y-6">
+        <!-- <image
+          class="image_5"
+          src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=16551312356216119962.png"
+        /> -->
+        <text class="font_1">核心商圈</text>
+      </view>
+      <view class="flex-col items-center equal-division-item space-y-6">
+        <!-- <image
+          class="image_5"
+          src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=16551312356222324005.png"
+        /> -->
+        <text class="font_1">全景参观</text>
+      </view>
+      <view class="flex-col items-center equal-division-item space-y-6">
+        <!-- <image
+          class="image_5"
+          src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=16551312356230545511.png"
+        /> -->
+        <text class="font_1">咨询热线</text>
+      </view>
+    </view>
+    <view class="flex-col group_1">
+      <text class="self-start text_3">热推空间</text>
+      <view class="flex-col">
+        <view
+          class="flex-row group_2 list-item space-x-16"
+          wx:for="{{items}}"
+          wx:for-item="item"
+          wx:for-index="index"
+          wx:key="index"
+        >
+          <!-- <image
+            class="image_6"
+            src="https://ide.code.fun/api/image?token=67c14492797f850011fa5449&name=a327b1be18e75b357df61b244c2fd26a.png"
+          /> -->
+          <view class="flex-col flex-auto space-y-29">
+            <view class="flex-col items-start space-y-8">
+              <text class="font_2">维新软件科学园</text>
+              <text class="font_3">深圳市南山区中心路3331号</text>
+            </view>
+            <view class="flex-row justify-end items-baseline space-x-3-reverse">
+              <text class="font_4">¥1,870</text>
+              <text class="font_3">起/工位/月</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
